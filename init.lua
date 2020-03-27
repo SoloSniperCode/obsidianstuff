@@ -25,7 +25,7 @@ minetest.register_craftitem("obsidianstuff:ingot", {
 minetest.register_craft({
     type = "shapeless",
     output = "obsidianstuff:ingot 2",
-    recipe = {"default:mese_crystal", "default:obsidian"}
+    recipe = {"default:steel_ingot", "default:obsidian"}
 })
 
 --
