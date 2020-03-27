@@ -19,7 +19,7 @@ end
 minetest.register_craftitem("obsidianstuff:ingot", {
     description = S("Obsidion Ingot"),
     inventory_image = "obsidianstuff_ingot.png",
-    light_source = 7, -- Texture will have a glow when dropped
+    
 })
 
 minetest.register_craft({
@@ -35,7 +35,7 @@ minetest.register_craft({
 minetest.register_tool("obsidianstuff:sword", {
     description = S("Obsidian Sword"),
     inventory_image = "obsidianstuff_sword.png",
-    light_source = 7, -- Texture will have a glow when dropped
+    
     tool_capabilities = {
 		full_punch_interval = 0.6,
 		max_drop_level = 1,
@@ -56,9 +56,9 @@ minetest.register_tool("obsidianstuff:sword", {
     minetest.register_tool("obsidianstuff:pick", {
         description = S("Obsidian Pickaxe"),
         inventory_image = "obsidianstuff_pick.png",
-        light_source = 7, -- Texture will have a glow when dropped
+       
         tool_capabilities = {
-            burns = true, -- fire_plus support
+
             full_punch_interval = 0.7,
             max_drop_level = 3,
             groupcaps={
@@ -81,7 +81,7 @@ minetest.register_tool("obsidianstuff:shovel", {
     description = S("Obsidian Shovel"),
     inventory_image = "obsidianstuff_shovel.png",
     wield_image = "obsidianstuff_shovel.png^[transformR90",
-    light_source = 7, -- Texture will have a glow when dropped
+
     tool_capabilities = {
 		full_punch_interval = 1.0,
 		max_drop_level=1,
@@ -97,7 +97,7 @@ minetest.register_tool("obsidianstuff:shovel", {
 minetest.register_tool("obsidianstuff:axe", {
     description = S("Obsidian Axe"),
     inventory_image = "obsidianstuff_axe.png",
-    light_source = 7, -- Texture will have a glow when dropped
+
     tool_capabilities = {
 		full_punch_interval = 0.8,
 		max_drop_level = 1,
@@ -161,7 +161,7 @@ if minetest.get_modpath("3d_armor") then
     armor:register_armor("obsidianstuff:helmet", {
         description = S("Obsidian Helmet"),
         inventory_image = "obsidianstuff_inv_helmet.png",
-        light_source = 7, -- Texture will have a glow when dropped
+
         groups = {armor_head=1, armor_heal=12, armor_use=100, armor_fire=0},
         armor_groups = {fleshy=15},
         damage_groups = {cracky=2, snappy=1, level=3},
@@ -171,7 +171,7 @@ if minetest.get_modpath("3d_armor") then
     armor:register_armor("obsidianstuff:chestplate", {
         description = S("Obsidian Chestplate"),
         inventory_image = "obsidianstuff_inv_chestplate.png",
-        light_source = 7, -- Texture will have a glow when dropped
+
         groups = {armor_torso=1, armor_heal=12, armor_use=100, armor_fire=0},
         armor_groups = {fleshy=20},
         damage_groups = {cracky=2, snappy=1, level=3},
@@ -181,7 +181,7 @@ if minetest.get_modpath("3d_armor") then
     armor:register_armor("obsidianstuff:leggings", {
         description = S("Obsidian Leggings"),
         inventory_image = "obsidianstuff_inv_leggings.png",
-        light_source = 7, -- Texture will have a glow when dropped
+
         groups = {armor_legs=1, armor_heal=12, armor_use=100, armor_fire=0},
         armor_groups = {fleshy=20},
         damage_groups = {cracky=2, snappy=1, level=3},
@@ -191,7 +191,7 @@ if minetest.get_modpath("3d_armor") then
     armor:register_armor("obsidianstuff:boots", {
         description = S("Obsidian Boots"),
         inventory_image = "obsidianstuff_inv_boots.png",
-        light_source = 7, -- Texture will have a glow when dropped
+
         groups = {armor_feet=1, armor_heal=12, armor_use=100, armor_fire=0},
         armor_groups = {fleshy=15},
 		damage_groups = {cracky=2, snappy=1, level=3},
@@ -201,7 +201,7 @@ if minetest.get_modpath("3d_armor") then
     armor:register_armor("obsidianstuff:shield", {
         description = S("Obsidian Shield"),
         inventory_image = "obsidianstuff_inven_shield.png",
-        light_source = 7, -- Texture will have a glow when dropped
+
         groups = {armor_shield=1, armor_heal=12, armor_use=100, armor_fire=0},
         armor_groups = {fleshy=20},
         damage_groups = {cracky=2, snappy=1, level=3},
