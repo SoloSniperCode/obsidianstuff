@@ -1,2 +1,2 @@
 # obsidianstuff
-Adds obsidian stuff for minetest
+Adds obsidian stuffs for minetest
